@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react"
+import Header from './components/Header/index'
+
 
 export default function App() {
 	const [minutes, setMinutes] = useState(1)
 	const [seconds, setSeconds] = useState(10)
-
+/*
 	useEffect ( () => {
 		if(seconds === 0 && minutes === 0){
 			alert("Tempo acabaou")
@@ -30,14 +32,13 @@ export default function App() {
 	}
 
 	
-	
+	*/
 	
 	return(
-		<div>
-			<h2>{minutes}:{seconds}</h2>
+		<>
+		<Header/>
 
-			<button  >Start</button>
-		</div>
+		</>
 	)
 }
 
