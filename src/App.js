@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Header from './components/Header/index'
+import Home from './components/Home/index'
 
 
 export default function App() {
@@ -37,7 +38,7 @@ export default function App() {
 	return(
 		<>
 		<Header/>
-
+		<Home />
 		</>
 	)
 }

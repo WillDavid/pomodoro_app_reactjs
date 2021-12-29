@@ -14,7 +14,7 @@ export default function Header(){
                 <a href='#'>Settings</a>
                 <a href='#'>Histórico</a>
                 <a href='#'>
-                    <img src={github_logo} />
+                    <img src={github_logo} /> <span>Github</span>
                 </a>
             </div>
         </div>
