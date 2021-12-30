@@ -4,4 +4,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.statusPomodoro {
+    font-size: 30px;
+    color: #E17055;
+}
+
+.clockPomodoro {
+    font-size: 45px;
+    font-weight: 600;
+    color: #E17055;
 }
